@@ -1,0 +1,137 @@
+*{
+  align-content: center;
+}
+.Nav{
+  z-index:1;
+  overflow: hidden;
+ 
+}
+
+ul{
+  display:flex;
+  font-size: 17px;
+  margin:0%;
+  background-color:#333;
+  padding:10px;
+  position:fixed;
+  width:100%;
+}
+.Nav ul li {
+  color:transparent;
+  margin-right:40px;
+  
+}
+.a{
+  color:#ddd;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+/* .Nav ul li {
+  color:transparent;
+  margin-right:40px;
+} */
+
+/* ul{
+  display:flex;
+  text-align: center;
+  margin:auto;
+  padding: 14px 16px;
+  font-size: 17px;
+} */
+
+
+/* Add a color to the active/current link */
+
+.article{
+  text-align:center;
+  text-decoration: none;
+  margin-bottom: 10px #666;
+ 
+  
+}
+.articless{
+  border-bottom: 3px solid rgb(20, 21, 20);
+  height: 100px;
+  color:black;
+}
+/* .App {
+  position:relative;
+  width:70%;
+  margin:auto;
+  text-align:justify;
+} */
+p {
+  position:relative;
+  width:70%;
+  margin:auto;
+  text-align:justify;
+} 
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.other-articles{
+  padding-top:20px;
+  border-top: 2px solid black;
+  text-align: center;
+  color:blue;
+  text-decoration: underline;
+}
+.comment {
+  border-bottom: 2px solid black;
+  padding: 16px;
+  
+}
+
+
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#add-comment-form {
+  margin-left:29rem;
+  padding: 16px;
+  z-index:-1;
+  
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+}
+
+#add-comment-form input, textarea {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+
+  
+  
+}
+
+#add-comment-form button {
+  width: 320px;
+}
+
+.b{
+  margin-left:15%;
+}
+
+.p{
+  color:blue;
+  margin-bottom: 1%;
+}
